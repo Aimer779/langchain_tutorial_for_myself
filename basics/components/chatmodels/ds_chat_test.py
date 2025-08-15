@@ -1,3 +1,5 @@
+# https://python.langchain.com/api_reference/deepseek/chat_models/langchain_deepseek.chat_models.ChatDeepSeek.html
+
 import getpass
 import os
 from dotenv import load_dotenv
