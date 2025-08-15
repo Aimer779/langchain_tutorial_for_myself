@@ -4,7 +4,7 @@ import getpass
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv() # used to load enviroment variable(YOUR-API-KEY) from .env file
 
 if not os.environ.get("DEEPSEEK_API_KEY"):
     os.environ["DEEPSEEK_API_KEY"] = getpass.getpass("Enter API key for DeepSeek: ")
